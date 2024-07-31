@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+    padding: 0;
+    list-style: none;
+}
+
+li.inline-block {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+/* Hero Image Styles */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #373738;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    display: inline-block;
+    padding: 0;
+    list-style: none;
+}
+
+footer li.inline-block {
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+}
