@@ -5,55 +5,83 @@ body {
 }
 
 /* Navbar Styles */
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+.navigation {
+    background-color: #2D2D2D;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
 }
 
 .logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
-nav {
-    width: 73%;
-    padding: 1%;
+.logo img {
+    height: 50px;
+    margin-right: 10px;
 }
 
-ul {
-    width: 50%;
-    margin-left: auto;
-    padding: 0;
+nav ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-li.inline-block {
-    display: inline-block;
-    padding: 0 15px;
+nav ul li {
+    margin: 0 15px;
+    cursor: pointer;
 }
 
 /* Hero Image Styles */
 .heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 600px;
+    background-color: #F4F4F4;
     padding: 25px;
 }
 
-.content {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
+.hero-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
 }
 
-.content img {
+.portrait {
+    flex: 1;
+    background-color: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portrait img {
     max-width: 100%;
     height: auto;
 }
 
-button {
-    padding: 10px 20px;
+.intro {
+    flex: 1;
+    background-color: #B8B8B8;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h1 {
+    margin: 0 0 20px 0;
+    font-size: 36px;
+}
+
+.intro p {
     font-size: 16px;
-    cursor: pointer;
+    line-height: 1.5;
 }
 
 /* Footer Styles */
@@ -61,16 +89,18 @@ footer {
     background-color: #373738;
     padding: 20px;
     text-align: center;
+    color: #fff;
 }
 
 footer ul {
-    display: inline-block;
-    padding: 0;
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-footer li.inline-block {
-    display: inline-block;
-    padding: 0 15px;
-    color: #fff;
+footer li {
+    margin: 0 15px;
+    cursor: pointer;
 }
